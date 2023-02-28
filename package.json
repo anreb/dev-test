@@ -1,0 +1,33 @@
+{
+  "name": "dev-test",
+  "version": "1.0.0",
+  "description": "The savvy cats over at SMART Pump would like to be able to allow users to login to their account, check their balance and update their personal details. Write a simple web application (API and UI) using node.js and lowdb that lets users accomplish those tasks.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "api":"node ./api/index.js",
+    "client": "http-server ./client -o -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tehnorm/dev-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tehnorm/dev-test/issues"
+  },
+  "homepage": "https://github.com/tehnorm/dev-test#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lowdb": "^5.1.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "http-server": "^14.1.1"
+  }
+}
